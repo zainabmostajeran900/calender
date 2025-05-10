@@ -11,7 +11,7 @@ export default function Favorites() {
       {/* تقویم */}
       <div className="w-full lg:w-1/2 relative rounded-[20px] overflow-hidden min-h-[400px] sm:min-h-[570px] flex items-center justify-center">
         <img
-          src="/public/ppp.png"
+          src="/ppp.png"
           alt="calendar background"
           className="absolute inset-0 w-full h-full object-contain z-0 scale-110"
         />
@@ -56,18 +56,18 @@ export default function Favorites() {
         {/* تب‌ها */}
         <div className="flex items-center sm:justify-start justify-center w-full">
           <div className="flex items-center gap-x-2 text-[#DFA105] border-l-2 lg:px-4 pl-2">
-            <img src="/public/Group 22.svg" alt="" />
+            <img src="/Group 22.svg" alt="" />
             <p className="font-bold text-sm lg:text-base whitespace-nowrap">
               نمایشگاه ها
             </p>
           </div>
           <div className="flex items-center gap-x-2 border-l-2 lg:px-4 px-2">
-            <img src="/public/notification-bing.svg" alt="" />
+            <img src="/notification-bing.svg" alt="" />
             <p className="text-sm lg:text-base whitespace-nowrap">یادآوری ها</p>
-            <img src="/public/arrow-down.svg" alt="" />
+            <img src="/arrow-down.svg" alt="" />
           </div>
           <div className="flex items-center gap-x-2 lg:px-4 pr-2 ">
-            <img src="/public/heart.svg" alt="" />
+            <img src="/heart.svg" alt="" />
             <p className="text-sm lg:text-base whitespace-nowrap">
               علاقه‌مندی ها
             </p>
@@ -84,7 +84,7 @@ export default function Favorites() {
                 className="flex items-center sm:gap-5 gap-1 bg-white border rounded-md p-1 sm:p-4 shadow-sm cursor-pointer"
               >
                 <img
-                  src="/public/Rectangle 2106.svg"
+                  src="/Rectangle 2106.svg"
                   alt=""
                   className="w-[60px] h-[60px] rounded-[4px]"
                 />
@@ -95,7 +95,7 @@ export default function Favorites() {
                   <div className="flex gap-x-1  sm:gap-x-6 gap-y-2 text-nowrap">
                     {/* استان برگزاری */}
                     <div className="flex items-center gap-x-1  sm:gap-x-2  sm:w-auto">
-                      <img src="/public/location.svg" alt="" />
+                      <img src="/location.svg" alt="" />
                       <p className="text-[6px] sm:text-[10px] text-[#363636B2]">
                         استان برگزاری: تهران
                       </p>
@@ -103,7 +103,7 @@ export default function Favorites() {
 
                     {/* تاریخ برگزاری */}
                     <div className="flex items-center gap-x-1 sm:gap-x-2  sm:w-auto">
-                      <img src="/public/calendar.svg" alt="" />
+                      <img src="/calendar.svg" alt="" />
                       <p className="text-[6px] sm:text-[10px] text-[#363636B2]">
                         تاریخ برگزاری: {toPersianNumber("1403/10/12")} -{" "}
                         {toPersianNumber("1403/10/16")}
@@ -112,7 +112,7 @@ export default function Favorites() {
 
                     {/* برگزار کننده */}
                     <div className="flex items-center gap-x-1 sm:gap-x-2 sm:w-auto ">
-                      <img src="/public/user.svg" alt="" />
+                      <img src="/user.svg" alt="" />
                       <p className="text-[6px] sm:text-[10px] text-[#363636B2]">
                         برگزار کننده: دیجیکالا
                       </p>
@@ -122,7 +122,7 @@ export default function Favorites() {
                 <div className="flex flex-1 justify-end items-center">
                   <img
                     className="w-[16px] h-[16px]"
-                    src="/public/Vector (1).svg"
+                    src="/Vector (1).svg"
                     alt=""
                   />
                 </div>
